@@ -32,7 +32,7 @@ required:required option
 		var prov_val=settings.prov;
 		var city_val=settings.city;
 		var dist_val=settings.dist;
-		var select_prehtml=(settings.required) ? "" : "<option value=''>select</option>";
+		var select_prehtml=(settings.required) ? "" : "<option value=''>SELECT</option>";
 		var city_json;
 
 		

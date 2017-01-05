@@ -23,12 +23,12 @@ pre{margin-top:10px; padding:6px; background:#f7f7f7}
 
   <div class="demo">
     <h3>Directly call</h3>
-    <p>Two level, Default：请选择</p>
+    <p>Two level, Default：select</p>
     <div id="city_1">
       <select class="prov"></select> 
       <select class="city" disabled="disabled"></select>
     </div>
-    <p>三级联动，默认省份：北京，隐藏无数据的子级select</p>
+    <p>Three level, Default: BEIJING.</p>
     <div id="city_2">
       <select class="prov"></select> 
       <select class="city" disabled="disabled"></select>
@@ -41,21 +41,21 @@ $("#city_2").citySelect({prov:"北京",nodata:"none"});
   </div>
   
   <div class="demo">
-    <h3>设置省份、城市、地区（县）的默认值</h3>
-    <p>二级联动</p>
+    <h3>Setting the default value of Province and cities</h3>
+    <p>Two level</p>
     <div id="city_3">
       <select class="prov"></select> 
       <select class="city" disabled="disabled"></select>
     </div>
-    <p>三级联动</p>
+    <p>Three level</p>
     <div id="city_4">
       <select class="prov"></select> 
       <select class="city" disabled="disabled"></select>
         <select class="dist" disabled="disabled"></select>
     </div>
     <pre>
-$("#city_3").citySelect({prov:"湖南", city:"长沙"});
-$("#city_4").citySelect({prov:"湖南", city:"长沙", dist:"岳麓区"}); 
+$("#city_3").citySelect({prov:"HUNAN", city:"CHANGSHA"});
+$("#city_4").citySelect({prov:"HUNAN", city:"CHANGSHA", dist:"YUELU DISTRICT"}); 
     </pre>
   </div>
   
