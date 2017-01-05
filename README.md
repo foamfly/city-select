@@ -1,7 +1,9 @@
 # city-select
-A city select demo with jquery+json
+A city select demo with jquery+json.
+[DEMO](https://foamfly.github.io/city-select/)
 
-The class of select elements should be: .prov, .city, .dist.
+The class of select elements should be: 
+    `.prov, .city, .dist.`
 
 ##Activate the plugin on the select boxes of your choice:
     `$("#your-select").citySelect();`
